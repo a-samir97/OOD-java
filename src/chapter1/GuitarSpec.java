@@ -1,6 +1,4 @@
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+package chapter1;
 
 public class GuitarSpec {
     private Builder builder;
