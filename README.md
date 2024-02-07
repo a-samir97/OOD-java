@@ -26,7 +26,7 @@
   
 ________________________________________________________
 
-## Chapter 2
+## Chapter 2 & Chapter 3 (Requirements, Changing Requirements)
 
 - Use case:
   - describes what the system does to accomplish a particular customer goal.
