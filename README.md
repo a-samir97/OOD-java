@@ -34,3 +34,14 @@ ________________________________________________________
   - Clear value 
   - Start and stop points
   - External initiator
+
+___________________________________________________________
+
+## Chapter 4 (Taking your software into the real world)
+- Analysis helps to make sure your system works well in real-world context
+  - `first step`: in analysis is to identify and figuring out potential problems
+  - `second step`: plan a solution 
+- Analysis and use case let you show customers, managers, and other developers how your system works in a real world context
+- Delegation shields objects from implementation changes to other objects to other objects in software
+- `Textual analysis`: Looking for nouns in use case to figure out classes and methods.
+- Class Diagram: provide an easy way to show the system and it's code (classes, attributes, methods)
