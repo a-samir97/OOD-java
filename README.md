@@ -45,3 +45,19 @@ ___________________________________________________________
 - Delegation shields objects from implementation changes to other objects to other objects in software
 - `Textual analysis`: Looking for nouns in use case to figure out classes and methods.
 - Class Diagram: provide an easy way to show the system and it's code (classes, attributes, methods)
+
+___________________________________________________________
+
+## Chapter 5 (Part 1) Good Design = Flexible Software
+- Abstract classes are placeholders for actual implementation classes
+- The abstract class defines behavior, and the subclasses implement that behavior
+- Abstract class: can not have an object or instance
+- Coding to an interface, rather than to an implementation makes your software easier to extend.
+- By coding to an interface, your code will work with all of interface's subclasses - even ones that have not been created yet.
+- Interface: has dual role of defining behavior that applies to multiple types, and also being the preferred focus of classes that use those types
+- Encapsulation: responsible for preventing more maintenance problems, by localizing the changes required for the behavior of the object to vary 
+
+### OO Principles
+1- Encapsulate what varies.
+2- Code to an interface rather than to an implementation.
+3- Each class in your application should have only one reason to change.
