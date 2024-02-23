@@ -48,7 +48,7 @@ ___________________________________________________________
 
 ___________________________________________________________
 
-## Chapter 5 (Part 1) Good Design = Flexible Software
+## Chapter 5 (Part 1 & Part 2) Good Design = Flexible Software
 - Abstract classes are placeholders for actual implementation classes
 - The abstract class defines behavior, and the subclasses implement that behavior
 - Abstract class: can not have an object or instance
@@ -61,3 +61,16 @@ ___________________________________________________________
 1- Encapsulate what varies.
 2- Code to an interface rather than to an implementation.
 3- Each class in your application should have only one reason to change.
+
+- When you have a set of properties that vary across objects, use a collection to store those props dynamically.
+- you'll remove lots of method from your classes and avoid having to change your code when new prop are added.
+
+
+### Remember
+- Most good designs come from analysis of bad designs
+- Never be a afraid to make mistakes and then change design later. This is part from design as software design is iterative process.
+
+### Cohesive class
+- Cohesion: measure the degree of connectivity among elements of a single module, class or object.
+- the higher cohesion of sofware is, the more well-designed and well-defined.
+- does one thing really well and does not try to do or be something else.

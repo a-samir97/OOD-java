@@ -1,6 +1,6 @@
-package chapter5;
+package chapter5_part2;
 
-public abstract  class Instrument {
+public class Instrument {
     private String serialNumber;
     private double price;
     private InstrumentSpec spec;
